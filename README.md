@@ -1,16 +1,10 @@
 # QuantCalc.
 
-> A browser-based quantum circuit simulator. Built from scratch. Built in public.
-
-![superpose v1](https://img.shields.io/badge/version-1.0-00f5d4?style=flat-square&labelColor=020608)
-![built with](https://img.shields.io/badge/built%20with-React-f72585?style=flat-square&labelColor=020608)
-![license](https://img.shields.io/badge/license-MIT-4361ee?style=flat-square&labelColor=020608)
-
----
+> A browser-based quantum circuit simulator. Built from scratch and building in public.
 
 ## What is this
 
-QuantCalc. is a quantum circuit simulator that runs entirely in the browser. Place quantum gates, build circuits, hit run, and watch the probability of each measurement outcome animate in real time — step by step, with explanations.
+QuantCalc is a quantum circuit simulator that runs entirely in the browser. Place quantum gates, build circuits, hit run, and watch the probability of each measurement outcome animate in real time — step by step, with explanations.
 
 No installation. No physics degree. No prior knowledge required.
 
