@@ -1,4 +1,4 @@
-# superpose.
+# QuantCalc.
 
 > A browser-based quantum circuit simulator. Built from scratch. Built in public.
 
@@ -10,11 +10,11 @@
 
 ## What is this
 
-superpose. is a quantum circuit simulator that runs entirely in the browser. Place quantum gates, build circuits, hit run, and watch the probability of each measurement outcome animate in real time — step by step, with explanations.
+QuantCalc. is a quantum circuit simulator that runs entirely in the browser. Place quantum gates, build circuits, hit run, and watch the probability of each measurement outcome animate in real time — step by step, with explanations.
 
 No installation. No physics degree. No prior knowledge required.
 
-I'm a Nanotechnology Engineering student at the University of Waterloo. Quantum computing kept coming up in my coursework and I decided to stop reading about it and start building it. The math under the hood is implemented from scratch — no wrapping of Qiskit or other libraries. Real statevector simulation in JavaScript.
+I'm a Nanotechnology Engineering student at the University of Waterloo. Quantum computing kept coming up in my coursework, and I decided to stop reading about it and start building it. The math under the hood is implemented from scratch — no wrapping of Qiskit or other libraries. Real statevector simulation in JavaScript.
 
 This is a build-in-public project. Every version ships with an update post.
 
@@ -41,7 +41,7 @@ A quantum system of n qubits is described by a **statevector** — a list of 2^n
 where |α|² + |β|² + |γ|² + |δ|² = 1
 ```
 
-**Applying a gate** = multiplying the statevector by a matrix.
+**Applying a gate** = multiplying the state vector by a matrix.
 
 **Hadamard gate** (creates superposition):
 ```
@@ -53,7 +53,7 @@ H|0⟩ = [0.707, 0.707]  →  50% chance of 0, 50% chance of 1
 
 **CNOT gate** (creates entanglement):
 ```
-Flips target qubit if and only if control qubit is |1⟩
+Flips the target qubit if and only if the control qubit is |1⟩
 ```
 
 **Bell state from scratch:**
@@ -146,7 +146,7 @@ The circuit:
 
 **Why JavaScript, not Python?**
 
-Browser-first. Zero setup for anyone who wants to try it. The statevector math for 3 qubits (8 complex numbers) is trivial for a modern browser.
+Browser-first. Zero setup for anyone who wants to try it. The state vector math for 3 qubits (8 complex numbers) is trivial for a modern browser.
 
 **Scaling limits**
 
@@ -188,7 +188,7 @@ Open `http://localhost:5173`
 | IBM Quantum Composer | Real hardware, professional | Complex UI, requires account |
 | Quirk | Open source, visual | Dated, no mobile, no explanations |
 | Qiskit | Extremely powerful | Python only, no visual interface |
-| **superpose.** | Mobile-friendly, step-by-step explanations, built in public | Early stage, 3 qubits only (for now) |
+| **QuantCalc.** | Mobile-friendly, step-by-step explanations, built in public | Early stage, 3 qubits only (for now) |
 
 ---
 
@@ -196,7 +196,7 @@ Open `http://localhost:5173`
 
 I study Nanotechnology Engineering at the University of Waterloo. My coursework covers semiconductor physics, materials characterisation, and quantum mechanics at the device level — so I understand the physical layer of what quantum computers are made of.
 
-This project came from wanting to understand the computational layer from the same first-principles perspective. Building the math from scratch (rather than wrapping a library) forced me to actually understand what the statevector is, what a gate does, and why Grover's works.
+This project came from wanting to understand the computational layer from the same first-principles perspective. Building the math from scratch (rather than wrapping a library) forced me to actually understand what the state vector is, what a gate does, and why Grover's works.
 
 Other projects: [MasjidOS](https://github.com/khizr/masjidos) · [Quarry](https://github.com/khizr/quarry) · [IntentReview](https://github.com/khizr/intentreview)
 
@@ -208,4 +208,4 @@ MIT — use it, fork it, build on it.
 
 ---
 
-*superpose. — built in public · follow the journey*
+*QuantCalc. — built in public · follow the journey*
