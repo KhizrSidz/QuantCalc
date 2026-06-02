@@ -129,12 +129,7 @@ The circuit:
 - [ ] Circuit gallery
 - [ ] Embeddable widget
 
-### V4 — Product
-- [ ] User accounts and saved circuits
-- [ ] Community circuit sharing
-- [ ] Curriculum mode — guided lessons
 
----
 
 ## Technical notes
 
@@ -152,16 +147,6 @@ This simulator runs the same linear algebra that describes what a real quantum c
 
 ---
 
-## Stack
-
-- React (functional components, hooks)
-- Vanilla CSS-in-JS
-- IBM Plex Mono (typography)
-- Canvas API (Bloch sphere)
-- Zero external dependencies for the math engine
-
----
-
 ## Run locally
 
 ```bash
@@ -172,34 +157,5 @@ npm run dev
 ```
 
 Open `http://localhost:5173`
-
----
-
-## Competitors
-
-| Tool | Strengths | Weaknesses |
-|------|-----------|------------|
-| IBM Quantum Composer | Real hardware, professional | Complex UI, requires account |
-| Quirk | Open source, visual | Dated, no mobile, no explanations |
-| Qiskit | Extremely powerful | Python only, no visual interface |
-| **QuantCalc.** | Mobile-friendly, step-by-step explanations, built in public | Early stage, 3 qubits only (for now) |
-
----
-
-## Background
-
-I study Nanotechnology Engineering at the University of Waterloo. My coursework covers semiconductor physics, materials characterisation, and quantum mechanics at the device level — so I understand the physical layer of what quantum computers are made of.
-
-This project came from wanting to understand the computational layer from the same first-principles perspective. Building the math from scratch (rather than wrapping a library) forced me to actually understand what the state vector is, what a gate does, and why Grover's works.
-
-Other projects: [MasjidOS](https://github.com/khizr/masjidos) · [Quarry](https://github.com/khizr/quarry) · [IntentReview](https://github.com/khizr/intentreview)
-
----
-
-## License
-
-MIT — use it, fork it, build on it.
-
----
 
 *QuantCalc. — built in public · follow the journey*
